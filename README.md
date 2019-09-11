@@ -2,7 +2,7 @@
     <a href="http://laravel-auditing.com" target="_blank"><img width="130" src="http://www.laravel-auditing.com/assets/img/laravel-auditing-logo.png#v2"></a>
 </p>
 
-<p align="center">
+<!-- <p align="center">
     <a href="https://scrutinizer-ci.com/g/owen-it/laravel-auditing/build-status/master"><img src="https://scrutinizer-ci.com/g/owen-it/laravel-auditing/badges/build.png?b=master" alt="Build Status"></a>
     <a href="https://scrutinizer-ci.com/g/owen-it/laravel-auditing/build-status/master"><img src="https://scrutinizer-ci.com/g/owen-it/laravel-auditing/badges/quality-score.png?b=master" title="Scrutinizer Code Quality"></a>
     <a href="https://scrutinizer-ci.com/g/owen-it/laravel-auditing/build-status/master"><img src="https://scrutinizer-ci.com/g/owen-it/laravel-auditing/badges/coverage.png?b=master" alt="Code Coverage"></a>
@@ -10,7 +10,14 @@
     <a href="https://packagist.org/packages/owen-it/laravel-auditing"><img src="https://poser.pugx.org/owen-it/laravel-auditing/d/total.svg" alt="Total Downloads"></a>
     <a href="https://packagist.org/packages/owen-it/laravel-auditing"><img src="https://poser.pugx.org/owen-it/laravel-auditing/license.svg" alt="License"></a>
     <a href="https://discord.gg/csD9ysg"><img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Chat"></a>
-</p>
+</p> -->
+
+
+## Fork
+This is a fork of the abandoned [Laravel-Auditing](https://github.com/owen-it/laravel-auditing) package. The fork was needed to support Larvel v6. The fork will continue to be maintained. Overtime the package will change namespaces to RunACorp\Auditing with the OwenIt\Auditing remaining for backward compatibility.
+
+## Intro
+
 
 This package will help you understand changes in your Eloquent models, by providing information about possible discrepancies and anomalies that could indicate business concerns or suspect activities. 
 
@@ -22,8 +29,9 @@ The package documentation can be found on the [official website](http://laravel-
 ## Version Information
  Version   | Illuminate    | Status                  | PHP Version
 :----------|:--------------|:------------------------|:------------
- 9.x       | 5.8.x - 5.x.x | Active support :rocket: | >= 7.1.3
- 8.x       | 5.2.x - 5.7.x | Active support          | >= 7.0.13
+ 9.3       | 5.8.x - 6.x.x | Active support :rocket: | >= 7.2
+ 9.0 - 9.2 | 5.8.x - 5.x.x | End of life             | >= 7.1.3
+ 8.x       | 5.2.x - 5.7.x | End of life             | >= 7.0.13
  7.x       | 5.2.x - 5.6.x | End of life             | >= 7.0.13
  6.x       | 5.2.x - 5.6.x | End of life             | >= 7.0.13
  5.x       | 5.2.x - 5.5.x | End of life             | >= 7.0.13
